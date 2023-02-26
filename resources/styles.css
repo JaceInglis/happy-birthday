@@ -8,11 +8,13 @@
 
 h1 {
     text-align: center;
-    font-size: 4rem;
-    margin: 1rem;
+    font-size: 6vw;
+    margin: 1vw;
 }
 
 .content {
+    display: block;
+    margin: auto;
     position: absolute;
 }
 
@@ -23,7 +25,13 @@ h1 {
     height: 100vh;
 }
 
+img {
+    display: block;
+    height: 25vw;
+    margin: 0 auto;
+}
+
 .message {
-    font-size: 2rem;
+    font-size: 5vw;
     text-align: center;
 }
